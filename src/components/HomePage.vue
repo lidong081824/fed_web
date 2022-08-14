@@ -61,10 +61,8 @@
             <div class="content">
               <!-- item._source.img_path -->
               <img style="margin-top: 12px;" :src=getImgSrc(item._source.img_path) width="100px" height="100px" />
-              <p style="padding: 0 10px;font-weight: 600;
-    color: #777;">{{ item._source.cate_name }}</p>
+              <p style="padding: 0 10px;font-weight: 600;color: #777;">{{ item._source.cate_name }}</p>
             </div>
-
           </div>
         </div>
       </div>
